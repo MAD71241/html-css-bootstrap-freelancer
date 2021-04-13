@@ -1,0 +1,13 @@
+header{
+    background-color: #2C3E50;
+    color: white;
+}
+
+.row {
+    width: 80%;
+}
+
+header [class*="col-"] {
+    height: 80px;
+    border: 1px solid white;
+}
