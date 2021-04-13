@@ -1,3 +1,5 @@
+/* HEADER */
+
 header{
     background-color: #2C3E50;
     color: white;
@@ -10,4 +12,30 @@ header{
 header [class*="col-"] {
     height: 80px;
     border: 1px solid white;
+}
+
+header .col-lg-3:last-of-type {
+    text-align: end;
+}
+
+/* MAIN */
+/* Jumbotron Section */
+
+.jumbotron {
+    background-color: #1ABC9C;
+}
+
+main>.container-fluid>.row .col-12 {
+    max-width: 70%;
+    height: 100px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+/* Portfolio Section */
+.portfolio .row {
+    width: 100%;
+}
+.portfolio .row {
+    text-align: center;
 }
