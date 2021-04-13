@@ -21,7 +21,7 @@ header .col-lg-3:last-of-type {
 /* MAIN */
 /* Jumbotron Section */
 
-.jumbotron {
+.jumbotron, .about {
     background-color: #1ABC9C;
 }
 
@@ -37,5 +37,11 @@ main>.container-fluid>.row .col-12 {
     width: 100%;
 }
 .portfolio .row {
+    text-align: center;
+}
+
+/* About Section */
+
+.about {
     text-align: center;
 }
