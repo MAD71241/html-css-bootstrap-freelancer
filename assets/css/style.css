@@ -92,7 +92,7 @@ main>.container-fluid>.row .col-12 {
     display: inline-block;
     position: relative;
 }
-.portfolio h4::after, .portfolio h4::before {
+.portfolio h4::after, .portfolio h4::before, .form h4::after, .form h4::before {
     display: inline-block;
     content: '';
     border-top: .3rem solid #343a40;
