@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="container-fluid">
-            <nav class="navbar navbar-expand-md navbar-dark">
+            <nav class="navbar marginize-me navbar-expand-md navbar-dark">
                 <a class="navbar-brand mr-right font-weight-bold" href="#">START BOOTSTRAP</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -42,6 +42,7 @@
     </header>
 
     <main>
+        <!-- jumbotron section -->
         <div class="container-fluid jumbotron">
             <div class="row mx-auto">
                 <div class="col-12 mx-auto">
@@ -50,9 +51,11 @@
                 <div class="col-12 mx-auto text-uppercase text-white font-weight-bold">
                     <h1>Start Boostrap</h1>
                 </div>
+                <!-- star divider  -->
                 <div class="col-12 mx-auto">
                     <h4><i class="fas fa-star text-white"></i></h4>
                 </div>
+                <!-- /star divider  -->
                 <div class="col-12 mx-auto text-uppercase text-white">
                     <ul class="px-0">
                         <li>Graphic Artist</li>
@@ -62,17 +65,24 @@
                 </div>
             </div>
         </div>
+        <!-- /jumbotron section -->
 
+        <!-- portfolio section -->
         <div class="container portfolio">
-            <div class="row justify-content-center">
+            <div class="row text-center justify-content-center">
                 <div class="col-4">
                     <h1 class="mx-0 text-uppercase text-dark font-weight-bold">Portfolio</h1>
                 </div>
             </div>
+
+            <!-- star divider  -->
             <div class="col-12 mx-auto">
                 <h4 class="text-center"><i class="fas fa-star text-dark"></i></h4>
             </div>
-            <div class="row row-cols-lg-3 row-cols-1 row-cols-md-2">
+            <!-- /star divider  -->
+
+            <!-- cards  -->
+            <div class="row text-center row-cols-lg-3 row-cols-1 row-cols-md-2">
                 <div class="col rounded p-3"><img class="rounded" src="./assets/img/cabin.png" alt=""></div>
                 <div class="col rounded p-3"><img class="rounded" src="./assets/img/cake.png" alt=""></div>
                 <div class="col rounded p-3"><img class="rounded" src="./assets/img/circus.png" alt=""></div>
@@ -80,17 +90,24 @@
                 <div class="col rounded p-3"><img class="rounded" src="./assets/img/safe.png" alt=""></div>
                 <div class="col rounded p-3"><img class="rounded" src="./assets/img/submarine.png" alt=""></div>
             </div>
+            <!-- /cards  -->
         </div>
+        <!-- /portfolio section -->
 
+        <!-- about section -->
         <div class="container-fluid about">
             <div class="row marginize-me mx-auto justify-content-center">
                 <div class="col-4">
                     <h1 class="pt-5 mx-0 text-center text-uppercase text-white font-weight-bold">about</h1>
                 </div>
             </div>
+            <!-- star divider  -->
             <div class="col-12 mx-auto">
                 <h4 class="text-center"><i class="fas fa-star text-white"></i></h4>
             </div>
+            <!-- star divider  -->
+
+            <!-- left column  -->
             <div class="row marginize-me mx-auto justify-content-center">
                 <div class="col-12 col-md-6 py-3">
                     <p class="text-white text-left">Freelancer is a free bootstrap theme created by Start Bootstrap. The
@@ -99,23 +116,35 @@
                         for easy customization.
                     </p>
                 </div>
+                <!-- /left column  -->
+
+                <!-- right column  -->
                 <div class="col-12 col-md-6 py-3">
                     <p class="text-white text-left">You can create your own custom avatar for the masthead, change the
                         icon in the dividers, and add
                         your email address to the contact form to make it fully functional!
                     </p>
                 </div>
+                <!-- /right column  -->
+
+                <!-- download button -->
                 <div class="col-12">
                     <button type="button" class="btn mb-5 btn-outline-light"><i
                             class="fas fa-download"></i>Download</button>
                 </div>
+                <!-- download button -->
             </div>
         </div>
+        <!-- /about section -->
+
+        <!-- form section -->
         <div class="container-fluid form">
             <div class="row marginize-me mx-auto justify-content-center">
                 <div class="col-12">
+                    <!-- titolo sezione -->
                     <h1 class="pt-5 mx-0 text-nowrap text-center text-uppercase text-dark font-weight-bold">Contact me
                     </h1>
+                    <!-- /titolo sezione -->
                 </div>
             </div>
             <div class="col-12 mx-auto">
@@ -125,24 +154,29 @@
 
 
             <div class="col-12">
-                <form>
+                <form class="marginize-me">
+                    <!-- nome -->
                     <div class="form-group">
                         <label for="fname" class="text-dark">First name:</label>
                         <input type="text" class="form-control" id="exampleFormControlInput1">
                     </div>
+                    <!-- email -->
                     <div class="form-group">
                         <label for="exampleFormControlInput1" class="text-dark">Email</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
                             placeholder="name@example.com">
                     </div>
+                    <!-- numero telefono -->
                     <div class="form-group">
                         <label for="fnumber" class="text-dark">Phone Number:</label>
                         <input type="number" class="form-control" id="exampleFormControlInput1">
                     </div>
+                    <!-- inserisci un messaggio -->
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1" class="text-dark">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
+                    <!-- pulsante submit -->
                     <button type="submit" class="btn btn-xl btn-primary">Send</button>
                 </form>
             </div>
@@ -164,21 +198,31 @@
         </div>
     </main>
     <footer>
+        <!-- sezione footer superiore -->
         <div class="container-fluid footer-top">
             <div class="row py-5 mx-auto text-center text-white">
+                <!-- left column -->
                 <div class="col-md-4 col-12">
                     <h2 class="text-uppercase">Location</h2>
                     <p>2215 John Daniel Drive Clark, MO 65243</p>
                 </div>
+                <!-- /left column -->
+
+                <!-- center column -->
                 <div class="col-md-4 col-12">
                     <h2 class="text-uppercase">Around the web</h2>
+                    <!-- pulsantiera -->
                     <span>
                         <a href="#" class="btn btn-outline-light btn-social"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class="btn btn-outline-light btn-social"><i class="fab fa-reddit-alien"></i></a>
                         <a href="#" class="btn btn-outline-light btn-social"><i class="fab fa-twitter"></i></a>
                         <a href="#" class="btn btn-outline-light btn-social"><i class="fab fa-instagram"></i></a>
                     </span>
+                    <!-- pulsantiera -->
                 </div>
+                <!-- /center column -->
+
+                <!-- right column -->
                 <div class="col-md-4 col-12">
                     <h2 class="text-uppercase">About Freelancer</h2>
                     <p>
@@ -186,9 +230,11 @@
                             Bootstrap</a> .
                     </p>
                 </div>
+                <!-- /right column -->
             </div>
         </div>
-        <div class="container-fluid footer-bot">
+        <!-- sezione footer inferiore -->
+        <div class="container-fluid footer-bot text-center">
             <div class="row justify-content-center mx-auto">
                 <div class="col-3"><span class="text-white">Copyright © Your Website 2020</span></div>
             </div>
