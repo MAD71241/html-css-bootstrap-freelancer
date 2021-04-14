@@ -16,11 +16,28 @@
 <body>
     <header>
         <div class="container-fluid">
-            <div class="row mx-auto">
-                <div class="col-4 col-md-4 col-lg-3">menu left</div>
-                <div class="col-6 col-md-4 col-lg-6"></div>
-                <div class="col-2 col-md-4 col-lg-3">menu right / hamburger</div>
-            </div>
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <a class="navbar-brand mr-right" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
 
@@ -47,7 +64,7 @@
                 <div class="col rounded">2</div>
             </div>
         </div>
-        <div class="container about">
+        <div class="container-fluid about">
             <div class="row mx-auto justify-content-center">
                 <div class="col-4">About me</div>
             </div>
@@ -57,7 +74,7 @@
                 <div class="col-2">download</div>
             </div>
         </div>
-        <div class="container form">
+        <div class="container-fluid form">
             <div class="row justify-content-center mx-auto">
                 <div class="col-4">Contact me</div>
                 <div class="col-12">form</div>

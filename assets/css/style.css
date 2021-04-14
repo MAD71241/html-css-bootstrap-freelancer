@@ -2,20 +2,25 @@
 
 header{
     background-color: #2C3E50;
+}
+
+header .navbar {
+    width: 80%;
+    margin: auto;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-links {
     color: white;
 }
 
-.row {
-    width: 80%;
-}
-
-header [class*="col-"] {
-    height: 80px;
-    border: 1px solid white;
-}
-
-header .col-lg-3:last-of-type {
-    text-align: end;
+/* RESPONSIVE SU DISPOSITIVI MOBILI */
+@media screen and (max-width: 576px) {
+    header .navbar {
+        width: 100%;
+    }
 }
 
 /* MAIN */
