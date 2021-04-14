@@ -42,13 +42,16 @@ main>.container-fluid>.row .col-12 {
     max-width: 200px;
     height: auto;
 }
+
 /* star section */
+
 .jumbotron .fa-star {
     font-size: 20px;
     width: auto;
     display: inline-block;
     position: relative;
 }
+
 .jumbotron h4::after, .jumbotron h4::before, .about h4::after, .about h4::before {
     display: inline-block;
     content: '';
@@ -86,12 +89,14 @@ main>.container-fluid>.row .col-12 {
 }
 
 /* Portfolio star section */
+
 .portfolio .fa-star {
     font-size: 20px;
     width: auto;
     display: inline-block;
     position: relative;
 }
+
 .portfolio h4::after, .portfolio h4::before, .form h4::after, .form h4::before {
     display: inline-block;
     content: '';
@@ -101,19 +106,21 @@ main>.container-fluid>.row .col-12 {
 }
 
 /* Portfolio images */
+
 .portfolio img {
     width: 100%;
     height: auto;
 }
 
 /* About Section */
+
 .about p {
     font-size: 1.25rem;
     font-weight: 300
 }
 
 .about .btn {
-        padding: 1rem 1.75rem;
+    padding: 1rem 1.75rem;
     font-size: 1.25rem;
 }
 
@@ -130,19 +137,54 @@ main>.container-fluid>.row .col-12 {
     padding-right: 1rem;
 }
 
+/* SEZIONE FORM */
+
+.container-fluid form {
+    padding-bottom: 6rem;
+}
+
+.form form {
+    width: 80%;
+    margin: auto;
+}
+
+form .btn {
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+    color: white;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+form .btn:hover {
+    color: #fff;
+    background-color: #159a80;
+    border-color: #148f77;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+}
+
+form label {
+    font-size: 1.5rem;
+}
+
+
 /* FOOTER */
 
 /* Footer Top */
 
 .footer-top {
-/*     height: 100px; */
+    /*     height: 100px; */
     background-color: #3A546D;
     text-align: center;
     color: white;
 }
 
 .footer-bot {
-/*     height: 80px; */
+    /*     height: 80px; */
     background-color: #2C3E50;
     text-align: center;
 }
