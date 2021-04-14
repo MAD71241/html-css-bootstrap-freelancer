@@ -1,6 +1,6 @@
 /* HEADER */
 
-header{
+header {
     background-color: #2C3E50;
 }
 
@@ -8,15 +8,9 @@ header .navbar {
     width: 80%;
     margin: auto;
 }
-.navbar-brand {
-    font-weight: bold;
-}
-
-.nav-links {
-    color: white;
-}
 
 /* RESPONSIVE SU DISPOSITIVI MOBILI */
+
 @media screen and (max-width: 576px) {
     header .navbar {
         width: 100%;
@@ -24,6 +18,7 @@ header .navbar {
 }
 
 /* MAIN */
+
 /* Jumbotron Section */
 
 .jumbotron, .about {
@@ -31,16 +26,53 @@ header .navbar {
 }
 
 main>.container-fluid>.row .col-12 {
-    max-width: 70%;
-    height: 100px;
-    border: 1px solid white;
+    max-width: 80%;
     text-align: center;
 }
 
+.jumbotron img {
+    max-width: 200px;
+    height: auto;
+}
+/* star section */
+.jumbotron .fa-star {
+    font-size: 20px;
+    width: auto;
+    display: inline-block;
+    position: relative;
+}
+.jumbotron h4::after, .jumbotron h4::before {
+    display: inline-block;
+    content: '';
+    border-top: .3rem solid white;
+    width: 5rem;
+    margin: 0 1rem;
+}
+
+.jumbotron ul>li {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.jumbotron ul>li::after {
+    content: " - ";
+}
+
+.jumbotron ul>li:last-of-type::after {
+    content: none;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+}
+
 /* Portfolio Section */
+
 .portfolio .row {
     width: 100%;
 }
+
 .portfolio .row {
     text-align: center;
 }
@@ -52,14 +84,16 @@ main>.container-fluid>.row .col-12 {
 }
 
 /* FOOTER */
+
 /* Footer Top */
 
-.footer-top{
+.footer-top {
     height: 100px;
     background-color: #3A546D;
     text-align: center;
     color: white;
 }
+
 .footer-bot {
     height: 80px;
     background-color: #2C3E50;
