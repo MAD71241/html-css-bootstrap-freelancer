@@ -177,14 +177,16 @@ form label {
 /* Footer Top */
 
 .footer-top {
-    /*     height: 100px; */
     background-color: #3A546D;
     text-align: center;
     color: white;
 }
 
 .footer-bot {
-    /*     height: 80px; */
     background-color: #2C3E50;
     text-align: center;
+}
+.footer-bot span {
+    font-size: 12px;
+    line-height: 80px;
 }
