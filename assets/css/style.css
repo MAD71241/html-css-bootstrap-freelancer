@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+.marginize-me {
+    width: 80%;
+}
+
 /* HEADER */
 
 header {
@@ -45,7 +49,7 @@ main>.container-fluid>.row .col-12 {
     display: inline-block;
     position: relative;
 }
-.jumbotron h4::after, .jumbotron h4::before {
+.jumbotron h4::after, .jumbotron h4::before, .about h4::after, .about h4::before {
     display: inline-block;
     content: '';
     border-top: .3rem solid white;
@@ -103,9 +107,27 @@ main>.container-fluid>.row .col-12 {
 }
 
 /* About Section */
+.about p {
+    font-size: 1.25rem;
+    font-weight: 300
+}
 
-.about, .form .row:first-of-type {
-    text-align: center;
+.about .btn {
+        padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+}
+
+.about span {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.about .btn {
+    width: 200px;
+}
+
+.about .fa-download {
+    padding-right: 1rem;
 }
 
 /* FOOTER */
@@ -113,14 +135,14 @@ main>.container-fluid>.row .col-12 {
 /* Footer Top */
 
 .footer-top {
-    height: 100px;
+/*     height: 100px; */
     background-color: #3A546D;
     text-align: center;
     color: white;
 }
 
 .footer-bot {
-    height: 80px;
+/*     height: 80px; */
     background-color: #2C3E50;
     text-align: center;
 }
