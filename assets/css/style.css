@@ -31,19 +31,9 @@ header {
     background-color: #1ABC9C;
 }
 
-main>.container-fluid>.row .col-12 {
-    max-width: 80%;
-    text-align: center;
-}
-
 .jumbotron img {
     max-width: 200px;
     height: auto;
-}
-
-main>.container-fluid>.row .col-12 {
-    max-width: 100%;
-    text-align: center;
 }
 
 /* star section */
