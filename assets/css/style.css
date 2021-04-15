@@ -41,6 +41,11 @@ main>.container-fluid>.row .col-12 {
     height: auto;
 }
 
+main>.container-fluid>.row .col-12 {
+    max-width: 100%;
+    text-align: center;
+}
+
 /* star section */
 
 /* divider */
