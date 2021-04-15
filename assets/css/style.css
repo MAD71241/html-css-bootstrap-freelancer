@@ -56,7 +56,7 @@ main>.container-fluid>.row .col-12 {
     display: inline-block;
     content: '';
     border-top: .3rem solid white;
-    width: 8rem;
+    width: 6rem;
     margin: 0 1rem;
 }
 
@@ -99,7 +99,7 @@ main>.container-fluid>.row .col-12 {
     display: inline-block;
     content: '';
     border-top: .3rem solid #343a40;
-    width: 8rem;
+    width: 6rem;
     margin: 0 1rem;
 }
 
