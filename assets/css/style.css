@@ -5,8 +5,12 @@
 }
 
 .marginize-me {
-    width: 80%;
+    width: 60%;
     margin: auto;
+}
+
+.shrink-me {
+    font-size: 2.5rem;
 }
 
 /* HEADER */
@@ -108,8 +112,8 @@ header {
 /* About Section */
 
 .about p {
-    font-size: 1.25rem;
-    font-weight: 300
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 .about .btn {
@@ -129,6 +133,11 @@ header {
 .about .fa-download {
     padding-right: 1rem;
 }
+
+.flex-me {
+    display: flex;
+    justify-content: flex-end;
+} 
 
 /* SEZIONE FORM */
 
@@ -196,6 +205,28 @@ form label {
     margin: 0 0.25rem;
 }
 
+.text-align {
+    text-align: left;
+}
+
+@media screen and (max-width: 576px) {
+    .text-align {
+        text-align: center;
+    }
+
+    .footer-top p:first-of-type {
+        width: 100%;
+    }
+
+    .about p {
+        font-size: 1rem;
+        width: 85%;
+    }
+    .shrink-me {
+        font-size: 2rem;
+    }
+
+}
 
 @media screen and (max-width: 992px) {
     .btn-social {
